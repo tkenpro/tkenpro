@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" fill="#111111">
+  <!--
+    TP 图形标还原：
+    - T：两条向右倾斜的平行四边形条（左上斜切）
+    - P：右侧大写P字形，顶部半圆弧，底部竖杆
+    两者紧贴组合
+  -->
+
+  <!-- T 图形：上横条（平行四边形，左高右低斜切） -->
+  <polygon points="0,14  36,14  28,30  0,30" fill="#111111"/>
+  <!-- T 图形：下横条（平行四边形，与上条平行，间距留空） -->
+  <polygon points="8,38  44,38  36,54  8,54" fill="#111111"/>
+
+  <!-- P 图形：竖杆 -->
+  <rect x="38" y="10" width="14" height="58" rx="0" fill="#111111"/>
+  <!-- P 图形：上半圆弧（D形） -->
+  <path d="M52,10 L52,44 Q80,44 80,27 Q80,10 52,10 Z" fill="#111111"/>
+  <!-- P 图形：圆弧内挖空（白色） -->
+  <path d="M64,18 L64,36 Q72,36 72,27 Q72,18 64,18 Z" fill="#ffffff"/>
+
+  <!-- TkenPro 文字 -->
+  <text x="96" y="56" font-family="'Helvetica Neue','Arial',sans-serif" font-size="40" font-weight="700" fill="#111111" letter-spacing="-0.5">TkenPro</text>
+</svg>
